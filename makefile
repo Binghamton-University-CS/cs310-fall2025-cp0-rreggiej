@@ -1,7 +1,7 @@
 # This is a simplistic makefile with minimal functionality.
 # More interesting makefiles to come!
 #
-# Specifiy the target
+# Specify the target
 all: zoo 
 
 # Specify the object files that the target depends on

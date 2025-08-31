@@ -14,8 +14,9 @@ AnimalsInZoo::AnimalsInZoo() {
 }
 
 void AnimalsInZoo:: display() {
-	std::cout << "Number of animals: " << numAnimals << endl;
+	cout << "Number of animals in zoo: " << numAnimals << endl;
 	if (numAnimals > 0) {
+		cout << "Animal in zoo: "; 
 		animal.display();
 	}
 }

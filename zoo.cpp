@@ -17,6 +17,9 @@ int main() {
    animal1->display();
 
    delete animal1;
+   
+   AnimalsInZoo test0;
+   test0.display();
 
    AnimalsInZoo test1(animal2);
    test1.display();
